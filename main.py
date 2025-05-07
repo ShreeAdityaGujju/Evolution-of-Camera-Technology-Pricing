@@ -35,7 +35,7 @@ st.markdown(
 
 
 # Loading and cleaning the data
-df = pd.read_csv("/Users/Aditya/Downloads/camera_dataset (1).csv")
+df = pd.read_csv("camera_dataset.csv")
 
 # Dropping missing/zero entries
 clean_cols = ["Dimensions", "Weight (inc. batteries)", "Price", "Storage included"]
